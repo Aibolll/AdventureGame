@@ -1,8 +1,12 @@
 Refactoring the Adventure Game Using SOLID Principles
+
 Introduction
+
 When we first looked at the original Adventure Game code, everything was crammed into a single class, making it hard to read, modify, and extend. To fix this, we applied SOLID principles, breaking the game into smaller, well-organized pieces. This makes it easier to add new features down the line without messing everything up.
 
-How We Applied SOLID Principles	
+
+How We Applied SOLID Principles
+
 1. Single Responsibility Principle (SRP) – Keeping Things Focused
 Each class now does just one job, making the code cleaner:
 •	Player handles player stats like health, experience, and inventory.
